@@ -5,3 +5,32 @@
 # Types: feat, fix, chore, docs, style, refactor, test, ci
 # Scope: optional (e.g., auth, api, ui)
 # Summary: imperative tone, lowercase, < 50 chars
+{
+  "folders": [
+    { "path": "frontend" },
+    { "path": "backend" },
+    { "path": "ai-service" },
+    { "path": "infra" },
+    { "path": "docs" }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/__pycache__": true
+    },
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "ms-python.python",
+      "ms-toolsai.jupyter",
+      "ms-azuretools.vscode-docker",
+      "github.vscode-github-actions"
+    ]
+  }
+}
