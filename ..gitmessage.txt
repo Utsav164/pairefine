@@ -1,0 +1,6 @@
+# Commit message template
+# -------------------------
+# type(scope): short summary
+# Example: feat(auth): add login API
+#
+# Types: feat, fix, docs, style, refactor, test, chore
