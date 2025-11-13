@@ -1,0 +1,7 @@
+# Conventional Commit Template
+# Format: <type>(<scope>): <short summary>
+# Example: feat(auth): add Google login
+
+# Types: feat, fix, chore, docs, style, refactor, test, ci
+# Scope: optional (e.g., auth, api, ui)
+# Summary: imperative tone, lowercase, < 50 chars
